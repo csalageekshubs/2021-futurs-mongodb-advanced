@@ -12,7 +12,7 @@ MongoClient.connect(
   })
 
 app.get('/', (req, res) => {
-  res.json({ message: "Hello world!" })
+  res.json({ message: "Hello world" })
 });
 
 const PORT = 3000;
