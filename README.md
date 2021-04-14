@@ -16,3 +16,5 @@ volumes: ['./:/usr/src/app']
 # To re-build
 docker-compose build
 ```
+### Notes
+* Database name: "local"
